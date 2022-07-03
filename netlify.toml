@@ -1,0 +1,12 @@
+[Settings]
+
+[build]
+command = "npm run build"
+functions = "functions"
+publish = "./build"
+
+[functions]
+directory = "netlify/functions"
+
+[build.processing]
+skip_processing = true
