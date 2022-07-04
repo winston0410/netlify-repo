@@ -8,6 +8,7 @@ const config = {
 	kit: {
 		adapter: adapter({
 			edge: false,
+			// Set split to false to deploy correctly again
 			split: true
 		}),
 	}
